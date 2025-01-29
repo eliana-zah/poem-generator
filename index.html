@@ -7,42 +7,44 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <header>
-      <h1>AI Poem Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>AI Poem Generator</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        The poem will go here
-        <br />
-        The poem will go here
-      </div>
-    </main>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          The poem will go here
+          <br />
+          The poem will go here
+        </div>
+      </main>
 
-    <footer>
-      This project was coded by
-      <a href="https://github.com/eliana-zah" target="_blank"
-        >Eliana Zaharia-Danicov</a
-      >, is
-      <a href="https://github.com/eliana-zah/poem-generator" target="_blank"
-        >open-sourced on GitHub</a
-      >
-      and
-      <a href="https://poem-generator-ai-project.netlify.app/" target="_blank"
-        >hosted on Netlify</a
-      >
-    </footer>
-
+      <footer>
+        This project was coded with 💜 by
+        <a href="https://github.com/eliana-zah" target="_blank"
+          >Eliana Zaharia-Danicov</a
+        >, is
+        <a href="https://github.com/eliana-zah/poem-generator" target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and
+        <a href="https://poem-generator-ai-project.netlify.app/" target="_blank"
+          >hosted on Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
